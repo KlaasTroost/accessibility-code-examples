@@ -22,7 +22,7 @@ public partial class PinTilesCodeEntryView
   {
     if (sender.Handler?.PlatformView is AndroidX.AppCompat.Widget.AppCompatEditText field)
     {
-      if (Android.OS.Build.VERSION.SdkInt >= Android.OS.BuildVersionCodes.R)
+      if (OperatingSystem.IsAndroidVersionAtLeast(30))
       {
         field.StateDescription = "Custom value";
       } 
