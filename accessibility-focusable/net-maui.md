@@ -16,6 +16,4 @@ Image is focusable for assistive technologies
 <Image AutomationProperties.IsInAccessibleTree="False"
        SemanticProperties.Description="Image description" />
 ```
-**Note**: `SemanticProperties.Description` will supersede the value of `AutomationProperties.IsInAccessibleTree`, so the Image is focusable for assistive technologies despite of the false value for 'IsInAccessibleTree' -->
-
-
+**Note**: `SemanticProperties.Description` will supersede the value of `AutomationProperties.IsInAccessibleTree`, so the Image is focusable for assistive technologies despite of the false value for 'IsInAccessibleTree'
